@@ -1,10 +1,23 @@
 @charset "utf-8";
 body
 
-h1{font-family: sans-serif; }
-.fieldsettext{box-align:center; }
-.h2{
-    font-size: 10px;
+h5{font-family: sans-serif;
+         position: absolute;
+         
+         top: 0px;
+         right: 20px;
+        }
+    
+
+.span{
+    width:100%;
+}
+.fieldsettext{box-align:center; 
+              width: auto;
+              list-style: height 30px;
+            }
+.sabutaitoru{
+    font-size: 15px;
 }
 
     .box1 {
