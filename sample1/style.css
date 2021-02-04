@@ -1,5 +1,10 @@
+.headline{
+    text-align: right;
+}
+
 .profile {
     padding:8px;
-    bordoer: ipx solid #brack
-     
+    border: ipx solid #000000
+
+
 }
