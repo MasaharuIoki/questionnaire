@@ -1,31 +1,51 @@
 @charset "utf-8";
-body{
-    font-family: sans-serif;
-}
-div{
-    border: solid 8px black;
-    box-sizing: border-box;
+body
 
-    text-align:center;
-    line-height: 100px;
-    font-weight: bold;
-    font-size:60px;
+font-family: sans-serif;
+.fieldsettext{box-align:center; }
+
+
+    .box1 {
+            float:none;
+            border-color: black;
+            width: 100px;
     }
-    .box2{
-        float: none;
+    .box2 {
+            float:left;
+            border-color: black;
+            width: auto;
+    } .box3 {
+            float:none;
+            border-color: black;
+            width: 100px;
+    }
+    .box4 {
+            float:left;
+            border-color: black;
+            width: auto;
+    } 
+    .box5 {
+             float:none; 
+            border-color: black;
+            width: 100px;
+    }
+    .box6 {
+                 float:left;
+             border-color: black;
+             width: auto;
+    }
+    .box7{
+        float:left;
+        border-color: black;
+        width: 100px;
+    }
+    .box8{
+        float:left;
+        border-color: black;
         width: auto;
-        border-color:black;
     }
-    .box3, .box4 {
-        float:left;
-        border-color: black;
-        width: 10%;/**横幅10％**/
-    }
-    .box5, .box6 {
-        float:left;
-        border-color: black;
-        width: 10%;/**横幅10％**/
-    }
+
+
 
     
 
