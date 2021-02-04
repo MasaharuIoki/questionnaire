@@ -1,3 +1,7 @@
+@charset "utf-8";
+body{
+    font-family: sans-serif;
+}
 div{
     border: solid 8px black;
     box-sizing: border-box;
@@ -13,6 +17,11 @@ div{
         border-color:black;
     }
     .box3, .box4 {
+        float:left;
+        border-color: black;
+        width: 10%;/**横幅10％**/
+    }
+    .box5, .box6 {
         float:left;
         border-color: black;
         width: 10%;/**横幅10％**/
