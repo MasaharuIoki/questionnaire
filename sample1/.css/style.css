@@ -1,73 +1,27 @@
 @charset "utf-8";
-body
-
-h5{font-family: sans-serif;
-         position: absolute;
-         
-         top: 0px;
-         right: 20px;
-        }
-    
-
-.span{
-    width:100%;
-}
-.fieldsettext{box-align:center; 
-              width: auto;
-              list-style: height 30px;
-            }
-.sabutaitoru{
-    font-size: 15px;
+.body {
+    margin: 10px;
+padding: 0px;
+font-size: 15px;
 }
 
-    .box1 {
-            float:none;
-            border-color: black;
-            width: 100px;
-    }
-    .box2 {
-            float:left;
-            border-color: black;
-            width: auto;
-    } .box3 {
-            float:none;
-            border-color: black;
-            width: 100px;
-    }
-    .box4 {
-            float:left;
-            border-color: black;
-            width: auto;
-    } 
-    .box5 {
-             float:none; 
-            border-color: black;
-            width: 100px;
-    }
-    .box6 {
-                 float:left;
-             border-color: black;
-             width: auto;
-    }
-    .box7{
-        float:left;
-        border-color: black;
-        width: 100px;
-    }
-    .box8{
-        float:left;
-        border-color: black;
-        width: auto;
-    }
-
-
-
-    
-
-
-.profile {
-    padding:8px;
-    border: ipx solid #000000
-
-
+#taitol {
+    background:#1e84eb;
+    width: unset;
+    border: 2px solid #000000;
+    text-align:center;
+    padding: 10px;
+    color:#ffffff;
+    margin: auto;
+}
+#box1,#box2,#box5,#box6,#box7,#box8{
+    border: 3px solid black;
+    padding: 0.1em;
+    float: left;
+}
+#box3,#box4 {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    padding: 0.1em;
+    float: left;
 }
