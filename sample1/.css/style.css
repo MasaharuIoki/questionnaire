@@ -14,14 +14,48 @@ font-size: 15px;
     color:#ffffff;
     margin: auto;
 }
-#box1,#box2,#box5,#box6,#box7,#box8{
+#box1{
     border: 3px solid black;
     padding: 0.1em;
+    border-collapse: collapse;
     float: left;
+    /* display: inline-block; */
 }
-#box3,#box4 {
+#box2,#box6 {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 0.1em;
+    /* width: 100%; */
+    /* flex: auto; */
+    float: none;
+    /* border-collapse: collapse; */
+}
+#box3 {
+    /* width: auto; */
     border-right: 3px solid black;
     border-left: 3px solid black;
     padding: 0.1em;
     float: left;
+    /* left:  0; */
+    /* display: inline-block; */
 }
+#box4 {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    padding: 0.1em;
+    /* width: 100%; */
+    /* display: inline-block; */
+}
+#box5{
+    border: 3px solid black;
+    padding: 0.1em;
+    border-collapse: collapse;
+    float: left;
+    /* display: inline-block; */
+}
+ #box7,#box8{
+        border: 3px solid black;
+        padding: 0.1em;
+        border-collapse: collapse;
+        float: left;
+    }
