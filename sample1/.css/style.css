@@ -4,6 +4,11 @@
 padding: 0px;
 font-size: 15px;
 }
+@media screen and (max-height:994px){
+    #box1,#box2,#box3,#box4,#box5,#box6{
+        font: size 0.8em;
+    }
+}
 
 #taitol {
     background:#1e84eb;
@@ -16,58 +21,80 @@ font-size: 15px;
 }
 #box1{
     border: 3px solid black;
+    display: table-cell;
     padding: 0.1em;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     float: left;
+    margin: auto;
+    /* margin: 0 -3px -3px 0; */
+    display: flex;
     /* display: inline-block; */
 }
-#box2,#box6 {
+#box2 {
     border: 3px solid black;
-    border-collapse: collapse;
+    /* display: table-cell; */
+    /* border-collapse: collapse; */
     padding: 0.1em;
     /* width: 100%; */
+    margin: 0px 0px 0.px 0;
     /* flex: auto; */
-    white-space: nowrap;
-    float: none;
+    /* white-space: nowrap; */
+    /* margin: auto; */
+    /* float: left; */
     /* border-collapse: collapse; */
-    
 }
 #box3 {
     /* width: auto; */
-    border-right: 3px solid black;
-    border-left: 3px solid black;
+    border: 3px solid black;
+    display: table-cell;
     padding: 0.1em;
     float: left;
+    /* display: inline-block; */
     white-space: nowrap;
+    margin: -2.5px 0 0px 0px;
+    /* margin: auto; */
     /* left:  0; */
     /* display: inline-block; */
 }
 #box4 {
-    border-right: 3px solid black;
-    border-left: 3px solid black;
+    border: 3px solid black;
+    /* display: table-cell; */
     padding: 0.1em;
+    /* display: flex; */
     /* width: 100%; */
-    white-space: nowrap;
     /* display: inline-block; */
-    
+    margin: auto;
+    margin: -2.5px 0px 0px 0px;
+    /* float: left; */
+    /* display: inline-block; */
 }
 #box5{
     border: 3px solid black;
     padding: 0.1em;
-    border-collapse: collapse;
+    /* display: table-cell; */
+    /* border-collapse: collapse; */
     float: left;
+    margin: -2.5px -2.5px 0px 0px;
+    /* margin: auto; */
     /* display: inline-block; */
+}
+#box6 {
+        border: 3px solid black;
+        /* display: flex; */
+        /* border-collapse: collapse; */
+        padding: 0.1em;
+        /* width: 100%; */
+        /* flex: auto; */
+        /* white-space: nowrap; */
+        /* float: none; */
+        margin: inherit;
+        margin: -2.5px 0px 0px 0px;
+        /* border-collapse: collapse; */
 }
  #box7,#box8{
         border: 3px solid black;
         padding: 0.1em;
         border-collapse: collapse;
         float: left;
-    }
-  @media only screen and (max-width: 948px) {/*https://code-kitchen.dev/html/table/参照*/
-        table.mobile-scroll {
-          white-space: nowrap; /* 折り返されないように */
-          overflow-x: auto; /* 横スクロール */
-          -webkit-overflow-scrolling: touch; /* スマホでスムーズにスクロールできるように */
-     }       
 }
+       
