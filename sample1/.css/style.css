@@ -30,6 +30,7 @@ font-size: 15px;
     white-space: nowrap;
     float: none;
     /* border-collapse: collapse; */
+    
 }
 #box3 {
     /* width: auto; */
@@ -48,6 +49,7 @@ font-size: 15px;
     /* width: 100%; */
     white-space: nowrap;
     /* display: inline-block; */
+    
 }
 #box5{
     border: 3px solid black;
