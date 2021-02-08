@@ -4,7 +4,7 @@
 padding: 0px;
 font-size: 15px;
 }
-@media screen and (max-height:994px){
+@media screen and (max-height:897px){
     #box1,#box2,#box3,#box4,#box5,#box6{
         font: size 0.8em;
     }
