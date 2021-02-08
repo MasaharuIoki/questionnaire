@@ -62,10 +62,10 @@ font-size: 15px;
         border-collapse: collapse;
         float: left;
     }
-  @media only screen and (max-width: 500px) {/*https://code-kitchen.dev/html/table/参照*/
+  @media only screen and (max-width: 948px) {/*https://code-kitchen.dev/html/table/参照*/
         table.mobile-scroll {
           white-space: nowrap; /* 折り返されないように */
           overflow-x: auto; /* 横スクロール */
           -webkit-overflow-scrolling: touch; /* スマホでスムーズにスクロールできるように */
-        }
-      }
+     }       
+}
